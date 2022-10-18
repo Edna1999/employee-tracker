@@ -13,3 +13,5 @@ the server
 
 
 ![screenshot from my employee tracker](./Assets/Screen%20Shot%202022-10-18%20at%2012.44.51%20PM.png)
+
+Link to walkthrough video: https://watch.screencastify.com/v/58rzmCct0eBPSRyx2WPF
