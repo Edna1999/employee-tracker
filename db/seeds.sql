@@ -38,3 +38,5 @@ VALUES  ('Josh', 'Smith', 2, 10),
         ('Thomas', 'Allen', 7, NULL), 
         ('Anna', 'Lawrence', 9, NULL);  
 
+
+

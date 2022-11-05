@@ -24,6 +24,7 @@ CREATE TABLE roles(
 );
 
 SET FOREIGN_KEY_CHECKS = 0;
+
 -- employee table
 CREATE TABLE employee(
     id INT UNSIGNED NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY ,
@@ -35,11 +36,12 @@ CREATE TABLE employee(
     REFERENCES roles(id) 
     ON DELETE CASCADE,
     manager_id INT UNSIGNED,
-    INDEX man_in(manager_id),
+    manager_confirm BOOLEAN,
     CONSTRAINT fk_manager
     FOREIGN KEY (manager_id) 
     REFERENCES employee(id) 
     ON DELETE SET NULL
     
 );
+
 
